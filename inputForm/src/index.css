@@ -1,0 +1,141 @@
+.vendor-form-container {
+  padding: 20px;
+}
+
+.vendor-form h2 {
+  margin-bottom: 20px;
+  color: blue; /* Added blue color for the heading */
+}
+
+.section {
+ 
+  margin-bottom: 20px;
+  
+}
+.section2{
+  display: flex;
+  gap: 13px;
+}
+
+.form-group {
+  display: flex; /* Flexbox for horizontal alignment */
+  align-items: center; /* Align items vertically */
+  gap: 169px;
+  margin-bottom: 15px;
+}
+
+
+.form-group label {
+  flex: 1; /* Labels take up equal space */
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  flex: 2; /* Inputs take up more space */
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.fetch-button,
+.submit-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.fetch-button {
+  margin-left: 10px; /* Adjust the spacing for the button */
+}
+
+.fetch-button:hover,
+.submit-button:hover {
+  background-color: #0056b3;
+}
+.required {
+  color: red;
+}
+.radio-group {
+  display: flex;
+  gap: 20px; /* Add spacing between Yes and No options */
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px; /* Space between the radio button and text */
+}
+.profile-photo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.upload-box {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.upload-box:hover {
+  background-color: #f0f0f0;
+}
+
+.upload-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Browse button styles */
+.browse-btn-container {
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.browse-btn {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: blue;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.browse-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
