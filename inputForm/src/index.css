@@ -1,5 +1,6 @@
 .vendor-form-container {
   padding: 20px;
+  max-width: 1000px;
 }
 
 .vendor-form h2 {
@@ -20,7 +21,6 @@
 .form-group {
   display: flex; /* Flexbox for horizontal alignment */
   align-items: center; /* Align items vertically */
-  gap: 169px;
   margin-bottom: 15px;
 }
 
